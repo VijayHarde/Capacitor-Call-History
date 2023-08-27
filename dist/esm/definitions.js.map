@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface ContactPlugin {\n  echo(options: { value: string }): Promise<{ value: string }>;\n  getCallLogs(): Promise<string>;\n  requestPermission(): Promise<string>;\n}\n"]}
