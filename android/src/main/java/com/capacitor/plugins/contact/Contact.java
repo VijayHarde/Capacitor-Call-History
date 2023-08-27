@@ -8,4 +8,14 @@ public class Contact {
         Log.i("Echo", value);
         return value;
     }
+
+    public String getCallLogs(String value) {
+        Log.i("Echo", value);
+        return value;
+    }
+
+    public String requestPermission(String value) {
+        Log.i("Echo", value);
+        return value;
+    }
 }

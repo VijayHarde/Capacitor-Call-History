@@ -7,4 +7,12 @@ export class ContactWeb extends WebPlugin implements ContactPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async getCallLogs(): Promise<string> {
+    return "This method is not supported for the web platform";
+  }
+
+  async requestPermission(): Promise<string> {
+    return "This methos is not supported for the web plastform";
+  }
 }
